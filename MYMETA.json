@@ -1,0 +1,61 @@
+{
+   "abstract" : "Generic Monitoring Config based on Template Toolkit Templates",
+   "author" : [
+      "Sven Nierlein, 2013, <sven.nierlein@consol.de>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.131560",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Monitoring-TT",
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::BOM" : "0",
+            "Perl::Critic::Policy::Dynamic::NoIndirect" : "0",
+            "Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs" : "0",
+            "Perl::Critic::Policy::ValuesAndExpressions::ProhibitAccessOfPrivateData" : "0",
+            "Template" : "0",
+            "Test::Cmd" : "0",
+            "Test::Perl::Critic" : "0",
+            "Test::Pod" : "1.4",
+            "Test::Pod::Coverage" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sni/Monitoring-TT/issues"
+      },
+      "homepage" : "http://labs.consol.de",
+      "license" : [
+         "http://opensource.org/licenses/gpl-3.0.html"
+      ],
+      "repository" : {
+         "url" : "https://github.com/sni/Monitoring-TT"
+      }
+   },
+   "version" : "1.0.0"
+}
